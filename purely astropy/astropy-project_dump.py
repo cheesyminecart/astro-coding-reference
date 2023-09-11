@@ -1,4 +1,4 @@
-# goal - to plot the position graph of the stars in M15
+# Goal 1 - To graph a P-L (Position-Latitude) diagram of M15 stars using data from VizieR!
 
 import pylab as pl
 import numpy as np
@@ -7,5 +7,5 @@ from astropy import units as u #always import astropy units! - learn scipy next
 from astropy import wcs
 from astroquery.gaia import Gaia
 
-# import data file - M15 pos ecliptic lat&longtitude file from the gaia archives as an astroquery
+
 
